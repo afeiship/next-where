@@ -10,7 +10,7 @@ npm install -S @feizheng/next-where
 ```js
 import '@feizheng/next-where';
 
-const dataSource = [
+const data = [
   {
     id: 67,
     userId: 'EB1347950628',

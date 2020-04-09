@@ -2,8 +2,8 @@
  * name: @feizheng/next-where
  * description: Get collection items from condition map.
  * url: https://github.com/afeiship/next-where
- * version: 1.0.0
- * date: 2020-04-09 15:20:14
+ * version: 1.0.1
+ * date: 2020-04-09 15:21:18
  * license: MIT
  */
 
