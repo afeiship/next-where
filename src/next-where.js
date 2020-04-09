@@ -9,7 +9,7 @@
 
     return inArray.filter(function (item) {
       var equals = pairs.filter(function (pair) {
-        return nx.path(item, pair.key) === pair.value;
+        return nx.get(item, pair.key) === pair.value;
       });
 
       return equals.length == pairs.length;

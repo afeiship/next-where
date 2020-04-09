@@ -3,7 +3,7 @@
  * description: Get collection items from condition map.
  * url: https://github.com/afeiship/next-where
  * version: 1.0.0
- * date: 2020-04-09 15:19:07
+ * date: 2020-04-09 15:20:14
  * license: MIT
  */
 
@@ -18,7 +18,7 @@
 
     return inArray.filter(function (item) {
       var equals = pairs.filter(function (pair) {
-        return nx.path(item, pair.key) === pair.value;
+        return nx.get(item, pair.key) === pair.value;
       });
 
       return equals.length == pairs.length;
